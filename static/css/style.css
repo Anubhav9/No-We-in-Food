@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url("https://envato-shoebox-0.imgix.net/3b1d/af53-8323-4032-91eb-5afdc51c38af/DSC_1999+copy.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=b1cd6ce6aa28eb327c8cb2913a694bef");
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .nav-bar{
+    display: flex;
+    padding: 40px 120px;
+  }
+  .nav-logo img{
+    width: 120px;
+  }
+  .nav-link{
+    flex: 1;
+  }
+  .nav-link ul{
+    margin-left: 50px;
+    display: inline;
+  }
+  .nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+  }
+  .nav-link ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .nav-link ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+  }
+  .nav-link ul li:hover::after{
+    width: 100%;
+  }
+  .btn{
+    padding: 10px 20px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .nav-link .btn{
+    float: right;
+    
+  }
+  .banner-title{
+    margin: 80px 130px;
+    color: white;
+  }
+  .banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+  }
+  .banner-title h1 span{
+    color: yellow;
+  }
+  .image_section{
+    margin: 0%;
+  }
+  #my_image{
+    height: 100px;
+    width: 100px;
+  }
+  #copyright{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+  }
+  .intro_dataset{
+    font-size: 22px;
+    color:yellow;
+    margin-left: 3%
+  }
